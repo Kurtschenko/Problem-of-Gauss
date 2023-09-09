@@ -8,7 +8,9 @@ public class Main {
 
         int numsSum = 0;
 
-        for (int i = 1; i <= 41; i++) {
+        for (int i = 1; i <= 6; i++) {
+
+            if (i <= 4) {
 
             count++;
 
@@ -16,9 +18,8 @@ public class Main {
 
             System.out.println(count + ") Num is " + i + ", sum is " + numsSum);
         }
+        }
 
         System.out.println("------------------------\n" + " Sum of numbers is " + numsSum);
-
+        }
     }
-
-}
